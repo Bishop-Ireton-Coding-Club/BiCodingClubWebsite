@@ -1,0 +1,127 @@
+:root {
+    --main-color: rgb(252, 61, 70);
+    --secondary-color: rgb(254, 176, 71);
+    --third-color: rgb(252, 61, 70);
+    --complement-color: rgb(251, 251, 251);
+    
+    /*#53ab94;*/
+  
+    --subtle-font-color: #888;
+  }
+
+body {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li {
+    margin-left: 60px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(148, 23, 6);
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(207, 21, 21);
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: rgb(226, 38, 13);
+    color: white;
+  }
+
+/* HACK BI WORKSHOP PAGE CODE */
+
+.jumbotron {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Jaapokki, "Trebuchet MS", Arial, sans-serif;
+    background-color: var(--main-color);
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background: var(--main-color);
+    background-position: center;
+    background-position-y: 47%;
+    background-size: cover;
+    border-radius: 0;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+  }
+
+  .jumbotron h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .people {
+    color: white;
+    font-family: Montserrat, Metrophobic;
+    text-align: center;
+    margin-right: 0;
+    background-color: white;
+    background-size: cover;
+  }
+
+  .people a {
+    color: white;
+    font-weight: bold;
+  }
+
+  .people .person {
+    color: black;
+    text-align: left;
+    background-color: transparent;
+    padding: 40px;
+    margin: 40px 0 40px 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .people .person h3:first-child {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+
+  .people .person h3:last-child {
+    margin-bottom: 0; 
+  }
+
+  .people .person .col:last-child {
+    margin-top: 0rem;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .jumbotron h1 {
+      font-size: 8rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .jumbotron h1 {
+      font-size: 8rem;
+    }
+  }
