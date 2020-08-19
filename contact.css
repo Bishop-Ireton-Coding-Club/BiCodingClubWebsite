@@ -1,0 +1,10 @@
+:root {
+  --main-color: rgb(252, 61, 70);
+  --secondary-color: rgb(254, 176, 71);
+  --third-color: rgb(252, 61, 70);
+  --complement-color: rgb(251, 251, 251);
+  
+  /*#53ab94;*/
+
+  --subtle-font-color: #888;
+}
