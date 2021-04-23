@@ -1,0 +1,36 @@
+body {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+li{
+    font-size: 25px;
+}
+
+a{
+    color: rgb(155, 125, 184);
+}
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(148, 23, 6);
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(207, 21, 21);
+    color: white;
+  }
+
+  .topnav a.active {
+    background-color: rgb(226, 38, 13);
+    color: white;
+  }
