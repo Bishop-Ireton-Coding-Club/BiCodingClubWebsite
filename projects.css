@@ -1,16 +1,36 @@
+/* SIMILAR TO ANNOUNCEMENTS.CSS */
+
+  :root {
+    --main-color: rgb(252, 61, 70);
+    --secondary-color: rgb(254, 176, 71);
+    --third-color: rgb(252, 61, 70);
+    --complement-color: rgb(251, 251, 251);
+    
+    /*#53ab94;*/
+  
+    --subtle-font-color: white;
+  }
+
 body {
-    color: white;
-    background-color: rgb(44, 44, 44);
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-li{
-    font-size: 25px;
-}
 
-a{
-    color: rgb(155, 125, 184);
-}
+  h3 {
+    padding-left: 60px;
+  }
+
+  li {
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+    font-size: 16px;
+    font-size: 18px;
+  }
+
+  br {
+      size: 5px;
+  }
+
   .topnav {
     overflow: hidden;
     background-color: rgb(148, 23, 6);
@@ -18,7 +38,7 @@ a{
 
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,9 +48,30 @@ a{
   .topnav a:hover {
     background-color: rgb(207, 21, 21);
     color: white;
+    text-decoration: none;
   }
 
   .topnav a.active {
     background-color: rgb(226, 38, 13);
     color: white;
   }
+
+/* HACK BI WORKSHOP PAGE CODE */
+
+.jumbotron {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Jaapokki, "Trebuchet MS", Arial, sans-serif;
+    position: relative;
+    background-position: center;
+    background-color: white;
+    background-position-y: 47%;
+    background-size: cover;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+  }
+
+  .jumbotron h1 {
+    padding: 0;
+    margin: 0;
+  } 
